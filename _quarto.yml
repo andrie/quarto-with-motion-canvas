@@ -1,0 +1,17 @@
+project:
+  title: "Motion Canvas"
+  type: website
+  resources:
+  # - dist/motion-canvas-ts.js
+  # - dist/animations/project.js
+  # - dist/animations/project2.js
+  # - dist/animations/*
+  - dist/*/*
+  - src/*.js
+
+  # lib-dir: dist/public
+  preview:
+    port: 4200
+    browser: false
+# website:
+#   site-path: /motion-canvas/

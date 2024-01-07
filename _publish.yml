@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 5b956b2d-ce6a-4d95-b5fd-b7082991025f
+      url: 'https://andrie.quarto.pub/motion-canvas'

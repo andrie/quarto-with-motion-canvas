@@ -1,0 +1,29 @@
+---
+title: "Motion canvas"
+---
+
+<style>
+    motion-canvas-player {
+        width:  75%;
+        /* height: 25vh; */
+        display: block inline;
+        /* auto-play: true; */
+    }
+</style>
+<script type="module" crossorigin src="/dist/motion-canvas-ts.js"></script>
+<script type="module" crossorigin src="/src/motion-canvas-url.js"></script>
+
+## Integrating motion-canvas into a quarto document
+
+Built with quarto and motion-canvas
+
+
+Animation goes here:
+
+<motion-canvas-player src="/dist/animations/project.js" style="width:50%"></motion-canvas-player>    
+
+And the second:
+
+<motion-canvas-player src="/dist/animations/project2.js"></motion-canvas-player>    
+
+fini
