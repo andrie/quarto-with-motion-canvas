@@ -35,22 +35,38 @@ The folder structure of this project is as follows:
 ``` bash
 .
 ├── README.md
+
+# Creating the quarto doc
+
 ├── _quarto.yml
 ├── index.qmd
-├── motion-canvas-ts.html # Inject the mc dependencies
-├── package.json
-├── vite.config.ts
 ├── src
-│   ├── main.ts # 
+│   ├── motion-canvas-url.js # fixes the url once deployed
+
+# Creating the animations
+
 ├── animations
-│   ├── # motion canvas files go here
-|   ├── vite.config.ts
 |   ├── src
 |   |   ├── project.ts
 |   |   ├── scenes
 |   |   |   ├── example.ts
+|   ├── vite.config.ts
+├── public
+|   |   # rendered animation JS files go here
+|   |   # these files must be included in quarto doc
+|   |   ├── project.js
+
+# Creating the motion-canvas dependencies
+
+├── motion-canvas-ts.html # Inject the mc dependencies
+├── src
+│   ├── main.ts # imports motion-canvas
 ├── dist
 |   ├── # compiled motion canvas files go here
+|   ├── *.html # this can be ignored
+|   ├── *.js   # the js file must be included in the quarto doc
+├── package.json
+├── vite.config.ts
 ```
 
 ## Building the project
