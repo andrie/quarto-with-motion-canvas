@@ -106,8 +106,9 @@ quarto render
 
 ## Acknowledgement
 
-This integration was inspired by the work of @hhenrichsen and the
-example of integrating `motion-canvas` into a `vite` website and hosted
-on github, via Github Actions builders.
+This integration was inspired by the work of
+[@hhenrichsen](https://github.com/hhenrichsen) and the example of
+integrating `motion-canvas` into a `vite` website and hosted on github,
+via Github Actions builders.
 
 https://github.com/hhenrichsen/motion-canvas-github-actions
